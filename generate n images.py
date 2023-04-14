@@ -54,7 +54,7 @@ def convert_prompt_to_image(prompt):
     return path
 
 
-for i in range(1, 3):
+for i in range(1, 300):
     prompt = "The most beautiful building."
     result = convert_prompt_to_image(prompt)
     print(f"Image saved to {result}")
